@@ -4,7 +4,7 @@ import React,{useEffect} from 'react';
 function App() {
   // const [menuItems,setMenuItems] = useState([]);
   useEffect(() => {
-    fetch(" https://api.spoonacular.com/recipes/complexSearch")
+    fetch("")
       .then((r) => r.json())
       .then((data) => console.log(data))
   }, []); 
